@@ -12,8 +12,7 @@ function ToBuyController (ShoppingListCheckOffService) {
 
   toBuyList.buiedItem = function (itemIndex, item) {
     ShoppingListCheckOffService.removeItemFromToBuyList(itemIndex);
-    ShoppingListCheckOffService.addItemToBoughtList(item);
-    //ShoppingListCheckOffService.getItemsToBoughtList();
+    ShoppingListCheckOffService.addItemToBoughtList(item);    
   }
 }
 
